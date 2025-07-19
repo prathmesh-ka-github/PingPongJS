@@ -6,7 +6,7 @@
 
 A simple and fun browser-based Ping Pong game built using HTML, CSS, and JavaScript. Play against your friends and test your reflexes in a fast-paced rally. Clean UI, smooth gameplay, and fully responsive design — no installs needed, just open and play!
 
-Paste link here
+## https://prathmesh-ka-github.github.io/PingPongJS/
 
 ![screenshot](image.png)
 
