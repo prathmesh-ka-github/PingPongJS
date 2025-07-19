@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PongGame</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="./paddles-bgremoved.png" type="image/x-icon">
+</head>
+<body>
+	<div align="center" class="header">
+		<h1>&#60;PingPongJS/&#62;</h1>
+	</div>
+	<div class="gameWrapper">
+		<audio id="bgm" src="./8bit-menu.mp3" autoplay loop></audio>
+		<div class="gameOptions">
+			<img src="./paddles-bgremoved.png" alt="paddles" width="200px">
+			<div class="gameInstructions">
+				Controls<br>
+				Use: W, S & ⬆, ⬇
+			</div>
+			<div id="scoreText">0 : 0</div>
+			<div class="gamebtns">
+				<button style="display: none;" class="btns" id="resetBtn">Reset (Space)</button>
+				<button style="display: block;" class="btns" id="startBtn">Start (Enter)</button>
+			</div>
+		</div>
+		<div id="gameContainer">
+			<canvas id="gameBoard" width="1000" height="500"></canvas>
+		</div>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
