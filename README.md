@@ -8,6 +8,8 @@ A simple and fun browser-based Ping Pong game built using HTML, CSS, and JavaScr
 
 Paste link here
 
+![screenshot](image.png)
+
 ## 🔹 Features
 1. Clean UI.
 1. Simple & Easy to use controls.
